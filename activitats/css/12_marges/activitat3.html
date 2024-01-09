@@ -1,0 +1,95 @@
+<html lang="es">
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mitad-superior {
+            flex: 1;
+            position: relative;
+            overflow: hidden; /* Evita que la imagen se extienda fuera del contenedor */
+        }
+
+        .img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ajusta el tamaño de la imagen manteniendo su proporción */
+        }
+
+        .mitad-inferior {
+            flex: 1;
+            background-color: rgb(219, 73, 73);
+            color: white; /* Color de texto blanco para que sea visible sobre el fondo negro */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .text {
+            text-align: center;
+        }
+        .texto{
+            margin-left: 20%;
+            margin-right: 20%;
+            text-align: center;
+        }
+
+        .texto-encima,
+        .texto-abajo {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white; /* Color de texto blanco para que sea visible sobre la imagen */
+        }
+
+        .texto-encima {
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .texto-abajo {
+            bottom: 50%;
+            transform: translate(-50%, 50%);
+        }
+        .boton{
+         
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 40px;
+      color: #000000; 
+      background-color: rgb(160, 158, 158);
+      border: none; 
+        cursor: pointer;
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="mitad-superior">
+        <img src="ordenador.jpeg" class="img" alt="Imagen de fondo">
+        <div class="texto-encima">
+<h2> We've got what you need!</h2>
+
+
+        </div>
+    </div>
+    <div class="mitad-inferior">
+        <div class="text">
+            <div class="texto-abajo">
+            <p class="texto">Start Bootstrap haseverithing you need to get your new webside up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+            <button class="boton" type="button"> GET STARTED</button></div>
+        </div>
+    </div>
+</body>
+</html>
