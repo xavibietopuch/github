@@ -1,15 +1,26 @@
 <html>
     <head>
         <style>
-            img{
-                width: 200px;
-                height: auto;
-                transition: 0.8s;
-            }
+            
+            .imagen-con-filtro {
+            position: relative;
+            display: inline-block;
+        }
+
+        .imagen-con-filtro img {
+            transition: filter 0.3s ease; /* Agrega una transición suave al filtro */
+        }
+
+        .imagen-con-filtro:hover img {
+            filter: grayscale(100%); /* Convierte la imagen a escala de grises al pasar el ratón */
+        }
             
         </style>
     </head>
     <body>
-        
+        <div class="imagen-con-filtro">
+            <img src="persona.jpeg" alt="Imagen">
+            
+        </div>
     </body>
 </html>

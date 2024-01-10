@@ -1,0 +1,52 @@
+<html>
+<head>
+    <style>
+        @keyframes moviment_lluna{
+
+         0%{transform: translateX(0px);
+
+         }
+         50% {
+                transform: translateX(-265px);
+            }
+            75% {
+                transform: translateX(-250px);
+            }
+         100%{
+            transform: translateX(-250px);
+         }
+
+        }
+
+        
+
+.sol{
+    border-radius: 50%;
+    background-color: rgb(189, 189, 18);
+    width: 150px; 
+height: 150px;
+position: relative;
+display: inline-block;
+
+}
+.lluna{
+    border-radius: 50%;
+    background-color: rgb(48, 48, 45);
+    width: 150px; 
+height: 150px;
+position: relative;
+display: inline-block;
+margin-left: 100px;
+animation: moviment_lluna 3s linear infinite ;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="sol"></div>
+<div class="lluna"></div>
+</body>
+</html>
