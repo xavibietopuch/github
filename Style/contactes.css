@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+header {
+
+        background-color: #4d2626;
+        color: #fff;
+        display: flex;
+        justify-content: flex-start;
+        padding: 1em;
+        text-align: center;
+     
+    }
+    h1{
+        text-align: center;
+    }
+    a{
+        color: black;
+    }
