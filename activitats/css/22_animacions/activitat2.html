@@ -1,0 +1,49 @@
+
+<head> 
+    <style>
+        @keyframes giraNoria {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .noria {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+            background-color: #ccc;
+            border-radius: 50%;
+            animation: giraNoria 10s linear infinite;
+        }
+ 
+        .asiento {
+            position: absolute;
+            width: 20px;
+            height: 80px;
+            background-color: #f00;
+            top: 50px;
+            left: 90px;
+            transform-origin: center bottom;
+            animation: giraAsiento 10s linear infinite;
+        }
+
+        @keyframes giraAsiento {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="noria">
+        <div class="asiento"></div>
+    </div>
+</body>
+</html>
