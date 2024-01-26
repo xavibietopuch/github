@@ -1,0 +1,75 @@
+<html lang="es">
+<head>
+    <style>
+        body {
+            background-color: rgb(251, 238, 202);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .titulo {
+            padding-top: 5rem;
+            padding-left: 3rem;
+            font-size: xx-large;
+            display: inline-block; /* Hacer que el título no ocupe todo el ancho */
+        }
+
+        .text {
+            padding-left: 3rem;
+            padding-right: 12rem;
+            padding-top: 2rem;
+            display: inline-block; /* Hacer que el texto no ocupe todo el ancho */
+        }
+
+        .contenedor-texto {
+            width: calc(100% - 340px); /* Ancho total menos el ancho de la imagen y el margen derecho */
+            float: left;
+        }
+
+        .imagen-derecha {
+            float: right;
+            margin-top: 2rem;
+            margin-right: 3rem;
+            width: 300px; /* Ajusta el ancho de la imagen según tus necesidades */
+            height: auto; /* Mantiene la proporción de la imagen */
+        }
+
+        .contenedor-boton {
+            text-align: center;
+            padding-top: 2rem;
+            clear: both; /* Limpia los flotadores */
+        }
+
+        .boto, 
+        .otro-boton {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 40px;
+            color: #ffffff;
+            background-color: #3498db;
+            border: none;
+            cursor: pointer;
+            margin-right: 20px; /* Espaciado entre los botones */
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor-texto">
+        <div class="titulo">
+            <h1>Ponte manos a la obra y aumenta las ventas</h1>
+        </div>
+        <div class="text">
+            Consigue que tus clientes interactúen y haz crecer tu negocio con la plataforma de marketing avanzada pero fácil de usar de Mailchimp
+        </div>
+    </div>
+    <img src="Captura de pantalla 2024-01-09 121224.png" alt="Imagen Derecha" class="imagen-derecha">
+    <div class="contenedor-boton">
+        <button class="boto">Suscríbete</button>
+        <button class="otro-boton">Comparar planes</button>
+    </div>
+</body>
+</html>
