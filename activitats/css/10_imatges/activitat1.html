@@ -1,0 +1,81 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    .chat-container {
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    .message {
+      display: flex;
+      margin-bottom: 15px;
+    }
+
+    .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .message-body {
+      background-color: #ffffff;
+      padding: 10px;
+      border-radius: 10px;
+      max-width: 70%;
+    }
+
+    .sender-name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .message-date {
+      font-size: 12px;
+      color: #888888;
+    }
+
+    /* Estilos para el mensaje del usuario 1 */
+    .user-1 .message-body {
+      background-color: #b2edbf;
+    }
+
+    /* Estilos para el mensaje del usuario 2 */
+    .user-2 .message-body {
+      background-color: #a0c8ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="chat-container">
+    <div class="message user-1">
+      <img src="avatar.jpeg" alt="Avatar Usuario 1" class="avatar">
+      <div class="message-body">
+        <div class="sender-name">avatar</div>
+        <div class="message-date">8 de enero, 2024</div>
+        <p>Hola, ¿cómo estás?</p>
+      </div> 
+    </div>
+
+    <div class="message user-2">
+      <img src="pepe.jpeg" alt="Avatar Usuario 2" class="avatar">
+      <div class="message-body">
+        <div class="sender-name">pepe</div>
+        <div class="message-date">8 de enero, 2024</div>
+        <p>Hola, estoy bien. ¿Y tú?</p>
+      </div>
+    </div>
+
+    <!-- Puedes añadir más mensajes siguiendo el mismo formato -->
+  </div>
+</body>
+</html>
