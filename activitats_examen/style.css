@@ -1,0 +1,45 @@
+#header{
+    display: flex;
+    background-color: rgb(173, 165, 51);
+}
+#esquerre{
+    padding: 10px;
+    margin-right: 10%;
+}
+#dreta{
+    margin-left: 30%;
+    height: 100px;
+    width: auto;
+    
+}
+#ColumnaEsquerra{
+    float: left;
+    background-color: rgb(223, 212, 113);
+    padding-left:8px;
+    width: 23%;
+    height: 100vh;
+}
+#ColumnaCentral{
+    float: left;
+    width: 50%;
+    padding: 5px;
+    
+}
+#ColumnaDreta{
+    float: right;
+    width: 24%;
+    padding: 10px;
+    background-color: rgb(219, 176, 58);height: 100vh;
+}
+#petitslinks{
+    float: right;
+
+}
+blockquote{background-color: rgb(182, 189, 90);
+
+border-bottom: 2px solid black;
+border-top: 2px solid black;
+padding: 4px;
+margin-right: 5%;
+margin-left: 5%;
+}
