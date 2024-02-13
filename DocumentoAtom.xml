@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Noticias de Tecnología</title>
+  <subtitle>Últimas noticias sobre tecnología</subtitle>
+  <updated>Fri, 12 Feb 2024 05:20:00 CET</updated>
+  <author>
+    <name>JOSÉ MENDIOLA ZURIARRAIN</name>
+  </author>
+  <entry>
+    <title>Puertas con 'buzón de voz' y que se abren solas: tecnología ‘low cost’ para evitar robos en casa</title>
+    <link href="https://elpais.com/tecnologia/tu-tecnologia/2024-02-12/puertas-con-buzon-de-voz-y-que-se-abren-solas-tecnologia-low-cost-para-evitar-robos-en-casa.html"/>
+    <id>https://elpais.com/tecnologia/tu-tecnologia/2024-02-12/puertas-con-buzon-de-voz-y-que-se-abren-solas-tecnologia-low-cost-para-evitar-robos-en-casa.html</id>
+    <updated>Fri, 12 Feb 2024 05:20:00 CET</updated>
+    <summary>Puedes contestar desde donde estés con tu teléfono móvil a tu buzón de voz cuando no estás en casa.</summary>
+    <author>
+      <name>JOSÉ MENDIOLA ZURIARRAIN</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Los 'deepfakes' aceleran las estafas de criptomonedas:Es muy fácil caer, cada vez son más sofisticadas.</title>
+    <link href="https://elpais.com/tecnologia/2024-02-08/los-deepfakes-aceleran-las-estafas-de-criptomonedas-es-muy-facil-caer-cada-vez-son-mas-sofisticadas.html"/>
+    <id>https://elpais.com/tecnologia/2024-02-08/los-deepfakes-aceleran-las-estafas-de-criptomonedas-es-muy-facil-caer-cada-vez-son-mas-sofisticadas.html</id>
+    <updated>Thu, 8 Feb 2024 05:20:00 CET</updated>
+    <summary>Con la nueva tecnología 'deepface' las estafas son mucho más frecuentes y, junto con la nueva forma de pago ja usada en países orientales, este tipo de estafas son diarias.</summary>
+    <author>
+      <name>CLARA ANGELA BRASCIA</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Google Bard ha muerto, larga vida a Gemini</title>
+    <link href="https://www.elmundo.es/tecnologia/2024/02/08/65c5580221efa0425a8b457e.html"/>
+    <id>https://www.elmundo.es/tecnologia/2024/02/08/65c5580221efa0425a8b457e.html</id>
+    <updated>Thu, 8 Feb 2024 23:49:00 CMT</updated>
+    <summary>Se han filtrado rumores sobre el próximo lanzamiento de un teléfono inteligente que promete revolucionar el mercado con nuevas características innovadoras</summary>
+    <author>
+      <name>Ángel Jiménez de Luis</name>
+    </author>
+  </entry>
+</feed>
