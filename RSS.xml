@@ -2,26 +2,27 @@
 <rss version="2.0">
   <channel>
     <title>Noticias de Tecnología</title>
-    <link></link>
-    <descript>Últimas noticias sobre tecnología</descript>
-    <language>es</language>
+    <description>Últimas noticias sobre tecnología</description>
     <item>
       <title>Puertas con 'buzón de voz' y que se abren solas: tecnología ‘low cost’ para evitar robos en casa</title>
       <link>https://elpais.com/tecnologia/tu-tecnologia/2024-02-12/puertas-con-buzon-de-voz-y-que-se-abren-solas-tecnologia-low-cost-para-evitar-robos-en-casa.html</link>
-      <descript>Puedes contestar desde donde estés con tu teléfono móvil a tu buzón de voz cuando no estás en casa.</descript>
-      <dataPublica>Fri, 12 Feb 2024 05:20:00 CET</dataPublica>
+      <description>Puedes contestar desde donde estés con tu teléfono móvil a tu buzón de voz cuando no estás en casa.</description>
+      <updated>Fri, 12 Feb 2024 05:20:00 CET</updated>
+      <author>JOSÉ MENDIOLA ZURIARRAIN</author>
     </item>
     <item>
     <title>Los 'deepfakes' aceleran las estafas de criptomonedas:Es muy fácil caer, cada vez son más sofisticadas.</title>
       <link>https://elpais.com/tecnologia/2024-02-08/los-deepfakes-aceleran-las-estafas-de-criptomonedas-es-muy-facil-caer-cada-vez-son-mas-sofisticadas.html</link>
-      <descript>Con la nueva tecnología 'deepface' las estafas son mucho más frecuentes y, junto con la nueva forma de pago ja usada en países orientales, este tipo de estafas son diarias.</descript>
-      <dataPublica>Thu, 8 Feb 2024 05:20:00 CET</dataPublica>
+      <description>Con la nueva tecnología 'deepface' las estafas son mucho más frecuentes y, junto con la nueva forma de pago ja usada en países orientales, este tipo de estafas son diarias.</description>
+      <updated>Thu, 8 Feb 2024 05:20:00 CET</updated>
+      <author>CLARA ANGELA BRASCIA</author>
     </item>
     <item>
       <title>Google Bard ha muerto, larga vida a Gemini</title>
       <link>https://www.elmundo.es/tecnologia/2024/02/08/65c5580221efa0425a8b457e.html</link>
-      <descript>Se han filtrado rumores sobre el próximo lanzamiento de un teléfono inteligente que promete revolucionar el mercado con nuevas características innovadoras</descript>
-      <dataPublica>Thu, 8 Feb 2024 23:49:00 CMT</dataPublica>
+      <description>Se han filtrado rumores sobre el próximo lanzamiento de un teléfono inteligente que promete revolucionar el mercado con nuevas características innovadoras</description>
+      <updated>Thu, 8 Feb 2024 23:49:00 CMT</updated>
+      <author>Ángel Jiménez de Luis</author>
     </item>
   </channel>
 </rss>
