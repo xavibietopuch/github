@@ -49,3 +49,8 @@ body {
   .link:hover {
     text-decoration: underline;
   }
+
+  .img{
+    width: auto;
+    height:100px;
+  }
