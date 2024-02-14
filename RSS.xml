@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+    xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Noticias de Tecnología</title>
     <description>Últimas noticias sobre tecnología</description>
@@ -16,6 +17,11 @@
       <description>Con la nueva tecnología 'deepface' las estafas son mucho más frecuentes y, junto con la nueva forma de pago ja usada en países orientales, este tipo de estafas son diarias.</description>
       <pubDate>Thu, 8 Feb 2024 05:20:00 CET </pubDate>
       <author>CLARA ANGELA BRASCIA </author>
+      <media:group>
+                <media:content url="https://drive.google.com/file/d/1-MyqHHMPcgY7xwgqGHYys_fYVVYDL0Uy/view?usp=drive_link" type="image/jpg" height="100px" width="200px" />
+                <media:title> Imatge per al RSS de la EAF4 </media:title>
+                <media:credit role="author"> Xavier Bieto</media:credit>
+      </media:group>
       </item>
     <item>
       <title>Google Bard ha muerto, larga vida a Gemini</title>
