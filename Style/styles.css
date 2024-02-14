@@ -60,4 +60,8 @@
             flex: 1;
             padding: 20px;
         }
-   
+   img{
+    height: 30px;
+    width: auto;
+  
+   }
