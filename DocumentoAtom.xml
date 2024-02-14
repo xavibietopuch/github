@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://raw.githubusercontent.com/xavibietopuch/github/main/DocumentoAtom.xml">
   <title>Noticias de Tecnología</title>
   <subtitle>Últimas noticias sobre tecnología</subtitle>
   <updated>Fri, 12 Feb 2024 05:20:00 CET</updated>
